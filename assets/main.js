@@ -1,11 +1,5 @@
 'use strict';
 document.documentElement.classList.add('js');
-function openChineseBiography() {
-  const biography = document.getElementById('about-zh');
-  if (biography && location.hash === '#about-zh') biography.open = true;
-}
-window.addEventListener('hashchange', openChineseBiography);
-openChineseBiography();
 const menu = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav-links');
 if (menu && nav) {
