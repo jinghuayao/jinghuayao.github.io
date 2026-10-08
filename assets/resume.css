@@ -44,3 +44,21 @@
  .resume-section li{break-inside:avoid}
  .resume-request,.resume-note{display:none}
 }
+
+/* High-contrast resume overrides (phontron-inspired). */
+.resume-page{background:#fff;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,.08);padding-left:32px;padding-right:32px}
+.resume-heading h1{color:#8b0000}
+.resume-heading h1 span{color:#555}
+.resume-subtitle{color:#8b0000;font-weight:600}
+.resume-contact,.resume-note{color:#333}
+.resume-section h2,.resume-request h2{color:#1a1a1a;border-bottom:2px solid #8b0000;padding-bottom:.5rem}
+.resume-section p,.resume-section li,.resume-skills dd,.resume-request p{color:#333}
+.resume-section strong,.resume-role-heading h3{color:#000}
+.resume-skills dt{color:#8b0000}
+.resume-role-heading>span{color:#555}
+.resume-role .resume-role-meta{color:#8b0000}
+.resume-request .email-address{color:#8b0000}
+.resume-section a{color:#8b0000}
+.resume-section a:hover{color:#a52a2a}
+@media(max-width:600px){.resume-page{padding-left:20px;padding-right:20px}}
+@media print{.resume-page{box-shadow:none}}
